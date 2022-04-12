@@ -13,14 +13,13 @@ class seeder extends Model
     // this where accessors they all did not work
     // look up how to use an accessor
     // accessor database to user, 
-    public function getLastnameAtrribute($value)
+    public function getLastnameAttribute($value)
     {
         return ucfirst($value);
     }
-    public function getFirstnameAtrribute($value)
+    public function getFirstnameAttribute($value)
     {
         return $value. ", india";
     }
-
-    
+  
 }
